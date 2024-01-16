@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About us</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="dropdown.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="homepage.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold; padding-top: 18px;">HOME</a>
+                </li>
+                <li><a href="aboutpage.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold; padding-top: 18px;">ABOUT</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">SERVICES</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="Wedding.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Wedding</a>
+                            <a href="Corporate.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Corporate</a>
+                            <a href="Social.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Social</a>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <img src="plan.png">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="contact us.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">CONTACT</a></li>
+                <li><a href="gallery.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">GALLERY</a></li>
+                <li><a href="testimonial.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">TESTIMONIAL</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--Content-->
+    <div class="title">
+        <h1 style="font-weight: bold; font-size: 48px; font-family: 'Times New Roman', Times, serif; color: white">ABOUT
+        </h1>
+    </div>
+    <br><br>
+
+    <div class="video-container">
+        <iframe width="720" height="420" src="https://www.youtube.com/embed/-Lmyk2oLPQ8" frameborder="0"
+            allow="fullscreen" alt="video related to event planning"></iframe>
+    </div>
+
+    <div class="aboutus-container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Ching Xiang Jie.jpg" alt="image of Ching">
+                    <h1>Lead Planner/Owner</h1>
+                    <p>
+                        Ching Xiang Jie, founder and expert event planner, is well versed in the industry having spent
+                        almost a decade perfecting his craft.
+                        With a degree in Computer Science from University Malaysia Terengganu, he has a strong logical
+                        mind helps out in planning events.
+                        It helps with understanding each aspects of event planning and the logical reason behind them to
+                        provide the best service there is.
+
+                    </p>
+                </div>
+
+                <div class="item">
+                    <img src="IMG_20240115_155350_122.jpg" alt="image of Aisyah Fatihah">
+                    <h1>Associate Planner</h1>
+                    <p>
+                        Nur Aisyah Fatihah, originated from Malaysia. Attended University Malaysia Terengganu for her
+                        social science degree but quickly realised that
+                        his passion for the creative industry. With a diverse background in organization, time
+                        management, client interaction, and design, Aishah
+                        brings a multi-faceted perspective to the EventPlan team. He understands that while logistics
+                        are essential, it is the personalized design
+                        touches that truly bring an event to life.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <img src="Kim_Ha_Na.png" alt="image of Kim Ha Na">
+                    <h1>Developer</h1>
+                    <p>
+                        Ha Na was introduced to the event industry in Seoul shortly after high school and fell in love
+                        with it, igniting her passion for creating
+                        unforgettable experiences. She has just completed her bachelor's degree in Data Analytic with a
+                        minor in Machine Learning from Hannam University.
+                        She is responsible for the development of our website as a full stack developer. Her expertise
+                        in UI/UX design results our a user friendly
+                        and attractive website.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+
+<footer>
+    <p>Copyright &copy 2024 CSF3133, UMT</p>
+</footer>
+
+</html>
