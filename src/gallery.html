@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="gal.css">
+    <title>Gallery</title>
+    <script src="dropdown.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <style>
+        .fade-in-text {
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body 
+style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgpg.jpg);
+        background-size: cover;
+        background-position: center;">
+    <!--Header-->
+    <div class="header">
+        <nav>
+            <ul>
+                <li><a href="homepage.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold; padding-top: 18px;">HOME</a>
+                </li>
+                <li><a href="aboutpage.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold; padding-top: 18px;">ABOUT</a>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">SERVICES</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="Wedding.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Wedding</a>
+                            <a href="Corporate.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Corporate</a>
+                            <a href="Social.html"
+                                style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">Social</a>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="logo">
+            <img src="plan.png">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="contact us.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">CONTACT</a></li>
+                <li><a href="gallery.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">GALLERY</a></li>
+                <li><a href="testimonial.html"
+                        style="font-family: 'Times New Roman', Times, serif; font-weight: bold;">TESTIMONIAL</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="title">
+        <div class="fade-in-text">
+            <h1 style="font-family: 'Times New Roman', Times, serif; font-weight: bold; ">GALLERY</h1>
+        </div>
+    </div>
+
+    <!--Picture-->
+    <div class="container-fluid">
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="WEDDING EVENT">
+                    <img src="gallery/bg6.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/cor1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="SOCIAL EVENT">
+                    <img src="gallery/bg2.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/wed2.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/cor3.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="SOCIAL EVENT">
+                    <img src="gallery/hb2.jpeg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="WEDDING EVENT">
+                    <img src="gallery/wed1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/cor2.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="SOCIAL EVENT">
+                    <img src="gallery/social.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="WEDDING EVENT">
+                    <img src="gallery/wed3.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/cor4.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="photo-gallery">
+                <div class="pic" data-text="CORPORATE EVENT">
+                    <img src="gallery/social1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--javascript-->
+    <script src="_JS_dropdown.js"></script>
+
+</body>
+
+<!--- footer -->
+<footer>
+    <p>Copyright &copy 2024 CSF3133, UMT</p>
+</footer>
+
+</html>
